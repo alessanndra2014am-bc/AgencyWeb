@@ -1,2 +1,76 @@
 @import url("./global.css");
 
+header {
+    display: flex;
+    /* Para  que o  gruo fique ao lado  do outro*/
+    justify-content: space-between;
+    /* colocar nas extremidades*/
+    align-items: center;
+    /* centrlizar na vertical*/
+    /* */
+    padding: 30px;
+    /*  Espaçamento interno*/
+    border-bottom: 0.7px solid var(--color-gray-3)
+        /*Borda inferior */
+
+
+
+}
+
+.container-nav-header {
+    display: flex;
+    /* Para eue o gruoo fique */
+    align-items: center;
+    /* */
+    gap: 70px;
+    /* Diastancia entre os elementos*/
+
+}
+
+.navigation-header ul {
+    /* So vai estilizar as tag ul que estiverem dentro de navegtaion- header*/
+    display: flex;
+    /* Para que o grupo fique ao lado do outro*/
+    gap: 40px;
+    /* Distncientre  os elementos */
+    list-style: none;
+    /* remove a bolinha*/
+
+}
+
+.navigation-header ul li a {
+    text-decoration: none;
+    /* Decoração de teto */
+    color: var(--color-black);
+    /* cor de texro*/
+    font-family: var(--font-family-primary);
+    /*Familia da fonte*/
+
+}
+
+.navigation-header ul li .menu-active {
+    color: var(--color-blue);
+
+
+}
+
+.btn-header {
+    font-family: var(--font-family-primary);
+    /* alterar fonte*/
+    text-decoration: none;
+    /* a decoraçao do texto*/
+    background-color: var(--color-blue);
+    /*Cor de fundo*/
+    color: var(--color-white);
+    /* Cor de texto*/
+    border-radius: 10px;
+    /*Arrendodamento da borda*/
+    padding: 10px 20px;
+    font-weight: var(--font-weight-button);
+    /* Espessura da fonte*/
+
+
+
+
+
+}
