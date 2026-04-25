@@ -133,7 +133,8 @@ header {
     }
 
     .btn-primary{
-        background-color: var(--color-blue); /* Cor de fundo*/
+        background-color: var(--color-blue); /* Cor de fundo*/ary{
+        padding: 8px 55px;/
         color: var(--color-white);/* cor do texto*/
         transition: 0.3s;/* Tempo de transição*/
     }
