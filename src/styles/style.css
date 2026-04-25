@@ -219,94 +219,159 @@ main {
 
 /*----------- Section Detail--------*/
 
-.section-details{
+.section-details {
 
-    display: flex; /*Hbilitar gap*/
-    flex-direction: column; /* Colocar os elementos em coluna */
-    gap: 80px; /* Distncia entre os elementos*/
-    align-items: center; /* Cuida  da horinzontal (flex- direction: coluna*/
-    padding: 80px 0;  /* Espaçamebto Interno*/
-
-}
-
-.details-presentation{
-    display: flex; /*Habilar gap*/
-    flex-direction: column; /* Colocar os elementos em coluna*/
-    gap: 30PX; /* Distancia entre os elementos*/
-    text-align: center; /*Texto ao centro*/
-
-
-}
-.details-presentation h2{
-    font-size: var(--font-size-h2); /* Yamanho da fonte*/
-    font-family: var(--font-family-primary); /*Família da fonte*/
-    font-weight: var(--font-weight-h2); /* Espessura da fonte*/
+    display: flex;
+    /*Hbilitar gap*/
+    flex-direction: column;
+    /* Colocar os elementos em coluna */
+    gap: 80px;
+    /* Distncia entre os elementos*/
+    align-items: center;
+    /* Cuida  da horinzontal (flex- direction: coluna*/
+    padding: 80px 0;
+    /* Espaçamebto Interno*/
 
 }
 
-.details-presentation p{
+.details-presentation {
+    display: flex;
+    /*Habilar gap*/
+    flex-direction: column;
+    /* Colocar os elementos em coluna*/
+    gap: 30PX;
+    /* Distancia entre os elementos*/
+    text-align: center;
+    /*Texto ao centro*/
 
-    font-family:  var(--font-family-primary); /* Famila da fonte*/
-    font-size: var(--font-size-body);/*Tamanho da fonte*/
-    color:  var(--color-gray-2); /* cor da fonte*/
-    width: 665px; /* largura*/
+
+}
+
+.details-presentation h2 {
+    font-size: var(--font-size-h2);
+    /* Yamanho da fonte*/
+    font-family: var(--font-family-primary);
+    /*Família da fonte*/
+    font-weight: var(--font-weight-h2);
+    /* Espessura da fonte*/
+
+}
+
+.details-presentation p {
+
+    font-family: var(--font-family-primary);
+    /* Famila da fonte*/
+    font-size: var(--font-size-body);
+    /*Tamanho da fonte*/
+    color: var(--color-gray-2);
+    /* cor da fonte*/
+    width: 665px;
+    /* largura*/
     margin: o auto;
 }
 
 
-.service-description{
-    display: flex; /* Habilitar gap/ colocar um ao lado do ouro*/
-    gap: 60px ;  /* Distancia entre os elementos*/
-    align-items: center; /* Cuida  da horinzontal (flex- direction: coluna*/
-    
+.service-description {
+    display: flex;
+    /* Habilitar gap/ colocar um ao lado do ouro*/
+    gap: 60px;
+    /* Distancia entre os elementos*/
+    align-items: center;
+    /* Cuida  da horinzontal (flex- direction: coluna*/
+
 
 }
 
-.content-service{
+.content-service {
 
-    display: flex;/* Habilitar Gap*/
-    flex-direction: column;  /* Colocar em coluna*/
-    gap: 40px; /* Distancia entre os elementos*/
-
-}
-
-.service-details{
-    display: flex; /*  Colocar um ao lado do outro*/
-    align-items: center; /*  Centralizar vertical*/
-    gap: 25px; /* Distancia do elemento*/
-
-}
-.service-details div span{
-    font-size: var(--font-size-h4); /* Tamanho da fonte*/
-    font-weight: var(--font-weight-h4);/* familia da fonte*/
-    font-family: var(--font-family-primary);/*Familia fonte*/
+    display: flex;
+    /* Habilitar Gap*/
+    flex-direction: column;
+    /* Colocar em coluna*/
+    gap: 40px;
+    /* Distancia entre os elementos*/
 
 }
 
-.service-details div p{
-    font-size: var(  --font-size-caption); /* Tamanho da fonte*/
-    font-family: var(--font-size-h4); /* familia da fonte*/
-    color:  var(--color-gray-2); /* Cor de texto*/
+.service-details {
+    display: flex;
+    /*  Colocar um ao lado do outro*/
+    align-items: center;
+    /*  Centralizar vertical*/
+    gap: 25px;
+    /* Distancia do elemento*/
 
 }
-.content-service h3{
-    font-size: var(--font-size-h3); /* Tamanho da fonte*/
-    font-family: var(--font-family-primary); /* familia da fonte*/
+
+.service-details div span {
+    font-size: var(--font-size-h4);
+    /* Tamanho da fonte*/
+    font-weight: var(--font-weight-h4);
+    /* familia da fonte*/
+    font-family: var(--font-family-primary);
+    /*Familia fonte*/
+
+}
+
+.service-details div p {
+    font-size: var(--font-size-caption);
+    /* Tamanho da fonte*/
+    font-family: var(--font-size-h4);
+    /* familia da fonte*/
+    color: var(--color-gray-2);
+    /* Cor de texto*/
+
+}
+
+.content-service h3 {
+    font-size: var(--font-size-h3);
+    /* Tamanho da fonte*/
+    font-family: var(--font-family-primary);
+    /* familia da fonte*/
     font-weight: var(--font-weight-h3);
     width: 420px;
 
 }
-.content-service h3 span{
+
+.content-service h3 span {
     color: var(--color-blue);
 
 }
 
-.content-service p{
+.content-service p {
     font-family: var(--font-family-primary);
     line-height: 27px;
     color: var(--color-gray);
-    width: 445px; ;
+    width: 445px;
+    
 
+}
 
+.section-benefit {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-benefit{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+    padding: 60px 48px;
+    border-radius: 20px ;
+    background
+    
+}
+
+.card-benefit p{
+    width: 458px;
+    
+
+}
+
+.card-benefit-secondary{
+
+    background-color: #F4F4F4;
 
 }
