@@ -70,93 +70,149 @@ header {
     /* Espessura da fonte*/
 
 }
-    /*-------------------------------MAIN-----------------*/
 
-    main {
+/*-------------------------------MAIN-----------------*/
 
-        display: flex;
-        /* Para  que o  gruo fique ao lado  do outro*/
-        justify-content: center;
-        /* centralizer na horizontal*/
-        align-items: center;
-        /* centrlizar na vertical*/
-        gap: 50px;
-        /* Distancia entre elementos*/
-        background-color: var(--color-blue-10);
-        /*cor  de fundo */
-        padding: 50px 0;
-        /*  Espaçamento interno*/
+main {
 
-
-    }
-
-    .main-content {
-
-        display: flex;  /* Para habitar o gap*/
-        flex-direction: column; /* Deixar em coluna*/
-        gap: 30px; /* Espaçamento entre os elementos*/
-        width: 520px;
-        height: 380px;
+    display: flex;
+    /* Para  que o  gruo fique ao lado  do outro*/
+    justify-content: center;
+    /* centralizer na horizontal*/
+    align-items: center;
+    /* centrlizar na vertical*/
+    gap: 50px;
+    /* Distancia entre elementos*/
+    background-color: var(--color-blue-10);
+    /*cor  de fundo */
+    padding: 50px 0;
+    /*  Espaçamento interno*/
 
 
-    }
+}
 
-    .main-content h1{
-        font-family: var(--font-size-h1);/*tAMANHO DA FONTE*/
-        font-family: var(--font-family-primary);/*ALTURA DA FONTE*/
-        font-weight: var(--font-weight-h1);/*ESPESSUARA DA FONTE*/
-    
-    
-    }
-    .main-content h1 span{
-        color: var(--color-blue);/* Alterar cor dp texto*/
-    }
-    .main-content p{
+.main-content {
 
-        font-family: var(--font-family-primary) ;/* Alterar fonte*/
-        color: var(--color-gray); /* Alterar cor dp texto*/
-        line-height: 30px; /* Distanciamento entre as linhas*/
-    }
-
-    .container-cta{
-
-        display: flex;
-        gap: 10px ;
-    }
-    .btn-primary, .btn-secondary{
-        padding: 8px 55px;/* Espaçamento interno*/
-        border-radius: 10px; /*Arredondamento da borda*/
-        font-weight: var(--font-weight-button);/* Espessura da fonte*/
-        text-decoration: none; /*Decoraçã do textp*/
-        font-family:  var(--font-family-primary); /* Fa,ília da fonte*/
-
-    }
-
-    .btn-primary{
-        background-color: var(--color-blue); /* Cor de fundo*/ary{
-        padding: 8px 55px;/
-        color: var(--color-white);/* cor do texto*/
-        transition: 0.3s;/* Tempo de transição*/
-    }
-
-    .btn-primary:hover{
-        background-color: #005e89;/**/
-    }
-    
-    
-    .btn-secondary{
-        background-color: var(--color-white);/* cor de fundo*/
-        color: var(--color-blue); /* cor de texto*/
-        border:  1px solid var(--color-blue); /*Temmpo de transiçao do elemento*/
-        transition: 0.3s ;
-    }
-
-    .btn-secondary:hover{
-        background-color: #e6e6e6;/**/
-    }
-    
+    display: flex;
+    /* Para habitar o gap*/
+    flex-direction: column;
+    /* Deixar em coluna*/
+    gap: 30px;
+    /* Espaçamento entre os elementos*/
+    width: 520px;
+    height: 380px;
 
 
+}
+
+.main-content h1 {
+    font-family: var(--font-size-h1);
+    /*tAMANHO DA FONTE*/
+    font-family: var(--font-family-primary);
+    /*ALTURA DA FONTE*/
+    font-weight: var(--font-weight-h1);
+    /*ESPESSUARA DA FONTE*/
 
 
+}
 
+.main-content h1 span {
+    color: var(--color-blue);
+    /* Alterar cor dp texto*/
+}
+
+.main-content p {
+
+    font-family: var(--font-family-primary);
+    /* Alterar fonte*/
+    color: var(--color-gray);
+    /* Alterar cor dp texto*/
+    line-height: 30px;
+    /* Distanciamento entre as linhas*/
+}
+
+.container-cta {
+
+    display: flex;
+    gap: 10px;
+}
+
+.btn-primary,
+.btn-secondary {
+    padding: 8px 55px;
+    /* Espaçamento interno*/
+    border-radius: 10px;
+    /*Arredondamento da borda*/
+    font-weight: var(--font-weight-button);
+    /* Espessura da fonte*/
+    text-decoration: none;
+    /*Decoraçã do textp*/
+    font-family: var(--font-family-primary);
+    /* Fa,ília da fonte*/
+
+}
+
+.btn-primary {
+    background-color: var(--color-blue);
+    /* Cor de fundo*/
+    padding: 8px 55px;
+    color: var(--color-white);
+    /* cor do texto*/
+    transition: 0.3s;
+    /* Tempo de transição*/
+}
+
+.btn-primary:hover {
+    background-color: #005e89;
+    /**/
+}
+
+
+.btn-secondary {
+    background-color: var(--color-white);
+    /* cor de fundo*/
+    color: var(--color-blue);
+    /* cor de texto*/
+    border: 1px solid var(--color-blue);
+    /*Temmpo de transiçao do elemento*/
+    transition: 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #e6e6e6;
+    /**/
+
+}
+
+/*--------------------------Services-------------------------*/
+
+.section-services {
+
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    justify-content: center;
+    padding: 30px 0;
+    gap: 25px;
+    border-bottom: 0.7px solid var(--color-gray-3);
+
+}
+
+.container-item-services {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.container-item-services h2 {
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-h4);
+    font-size: var(--font-size-h4);
+
+}
+
+.container-item-services p {
+    font-family: var(--font-family-primary);
+    color: var(--color-gray-2);
+    font-size: var(--font-size-h4);
+}
