@@ -403,7 +403,6 @@ main {
     background-color: var(--color-blue);
     color: var(--color-white);
 }
-
 .card-benefit-primary p {
     color: var(--color-white);
 }
@@ -417,4 +416,22 @@ main {
     font-weight: var(--font-weight-button);
     font-family: var(--font-family-primary);
 
+}
+.section-company{
+
+    display: flex;
+    flex-direction:column ;
+    gap: 20px;
+    align-items: center;
+    margin: 43px;
+    padding: 80px;
+}
+.section-company{
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-h2);
+    font-size: var(--font-size-h3);
+}
+.container-company{
+    display: flex;
+    gap: 80px;
 }
