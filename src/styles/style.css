@@ -343,7 +343,7 @@ main {
     line-height: 27px;
     color: var(--color-gray);
     width: 445px;
-    
+
 
 }
 
@@ -353,25 +353,68 @@ main {
     gap: 20px;
 }
 
-.card-benefit{
+.card-benefit {
     display: flex;
     flex-direction: column;
     gap: 35px;
     align-items: center;
     padding: 60px 48px;
-    border-radius: 20px ;
-    background
-    
+    border-radius: 20px;
+
 }
 
-.card-benefit p{
+.card-benefit p {
     width: 458px;
-    
 
 }
 
-.card-benefit-secondary{
+.card-benefit-secondary {
 
     background-color: #F4F4F4;
+
+}
+
+.card-benefit h2 {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-h3);
+    width: 365px;
+    text-align: center;
+
+}
+
+.card-benefit p {
+    font-family: var(--font-family-primary);
+    color: var(--color-gray);
+    text-align: center;
+    width: 458px;
+}
+
+.btn-benefit {
+    padding: 10px 35px;
+    border-radius: 10px;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    text-decoration: none;
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-button);
+}
+
+.card-benefit-primary {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+
+.card-benefit-primary p {
+    color: var(--color-white);
+}
+
+.btn-benefit-secondary {
+    background-color: var(--color-white);
+    padding: 10px 35px;
+    border-radius: 10px;
+    color: var(--color-blue);
+    text-decoration: none;
+    font-weight: var(--font-weight-button);
+    font-family: var(--font-family-primary);
 
 }
